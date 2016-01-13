@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <cn.go.lyqdh.carmap.widget.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ub__icon_contact_picker_permission_denied" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="温冠华"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menu_selector">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:drawableLeft="@drawable/ub__icon_menu_payment_normal"
+            android:text="付款" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menu_selector">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:drawableLeft="@drawable/ub__icon_menu_trip_history_normal"
+            android:text="历史记录" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:drawableLeft="@drawable/ub__icon_menu_share_normal"
+            android:text="付款" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_promo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menu_selector">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:drawableLeft="@drawable/ub__icon_menu_promo_normal"
+            android:text="优惠" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menu_selector">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:drawableLeft="@drawable/ub__icon_menu_support_normal"
+            android:text="帮助" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/menu_selector">
+
+        <TextView
+            style="@style/MenuItemTextStyle"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ub__icon_menu_settings_normal"
+            android:text="设置" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#80666666">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/menu_selector"
+        android:text="关于"
+        android:textColor="#666666" />
+
+</LinearLayout>

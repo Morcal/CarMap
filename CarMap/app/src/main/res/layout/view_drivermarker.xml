@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.go.lyqdh.carmap.widget.CircleImageView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/civ_drivermark"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/driver_marker"
+    android:src="@drawable/ub__icon_contact_picker_permission_denied" />
+
